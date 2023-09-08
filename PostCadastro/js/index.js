@@ -51,6 +51,7 @@ class usuarios {
         await response.json()
 
         window.location.href = "../GetCadastros/cadastros.html"
+
     }
 }
 

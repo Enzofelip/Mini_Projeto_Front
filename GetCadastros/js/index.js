@@ -61,6 +61,8 @@ async function getDados(){
                         'Content-type': 'application/json'
                     },
                 }).then(response => console.log(response))
+
+                window.location.href = "../GetCadastros/cadastros.html"
             })
              
            
